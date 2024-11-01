@@ -5,6 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 </head>
+<title>${pageContext.servletContext.getInitParameter("environment")}</title>
 <body>
 	<h2>Registration successful with below details</h2>
     Environment: ${pageContext.servletContext.getInitParameter("environment")}<br>
