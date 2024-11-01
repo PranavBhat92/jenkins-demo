@@ -8,7 +8,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Registration</title>
 </head>
-<title>${pageContext.servletContext.getInitParameter("environment")}</title>
 <body>
 
 	<h1>Register here</h1>
