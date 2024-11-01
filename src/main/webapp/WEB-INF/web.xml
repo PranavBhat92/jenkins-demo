@@ -10,7 +10,7 @@
 	</context-param>
 	<context-param>
 		<param-name>environment</param-name>
-		<param-value>${environment}</param-value>
+		<param-value>@environment@</param-value>
     	</context-param>
 
 	<listener>
