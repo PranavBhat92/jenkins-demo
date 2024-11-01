@@ -36,6 +36,7 @@
 		</dependency>
 	</dependencies>
 	<build>
+		<finalName>DemoApp</finalName>
 		<resources>
 			<resource>
 				<directory>src/main/webapp/WEB-INF</directory>
