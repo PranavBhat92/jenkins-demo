@@ -8,7 +8,7 @@
 		<param-name>contextConfigLocation</param-name>
 		<param-value>/WEB-INF/rootAppContext.xml</param-value>
 		<param-name>environment</param-name>
-		<param-value>Web</param-value>
+		<param-value>Webbb</param-value>
 	</context-param>
 
 	<listener>
