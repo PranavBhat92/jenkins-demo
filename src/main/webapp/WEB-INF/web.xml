@@ -7,9 +7,11 @@
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>/WEB-INF/rootAppContext.xml</param-value>
-		<param-name>environment</param-name>
-		<param-value>Web</param-value>
 	</context-param>
+	<context-param>
+		<param-name>environment</param-name>
+		<param-value>${environment}</param-value>
+    	</context-param>
 
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
