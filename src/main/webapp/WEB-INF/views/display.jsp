@@ -4,11 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>${pageContext.servletContext.getInitParameter("environment")}</title>
 </head>
 <body>
 	<h2>Registration successful with below details</h2>
-    Environment: ${pageContext.servletContext.getInitParameter("environment")}<br>
+    Environment: Test<br>
 	Username   : ${user.uname} <br/>
 	Email : ${user.email }
 
