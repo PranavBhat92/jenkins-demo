@@ -7,7 +7,7 @@
 <title>${pageContext.servletContext.getInitParameter("environment")}</title>
 </head>
 <body>
-	<h2>Registration successful with below details</h2>
+	<h2>Registration successful!</h2>
     Environment: ${pageContext.servletContext.getInitParameter("environment")}<br>
 	Username   : ${user.uname} <br/>
 	Email : ${user.email }
