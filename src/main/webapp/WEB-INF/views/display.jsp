@@ -11,5 +11,6 @@
     Environment: ${pageContext.servletContext.getInitParameter("environment")}<br>
 	Username   : ${user.uname} <br/>
 	Email : ${user.email }
+	Extra: More things...
 </body>
 </html>

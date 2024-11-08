@@ -66,13 +66,13 @@
 		<profile>
 			<id>dev</id>
 			<properties>
-				<environment>Development</environment>
+				<environment>Developmenttt</environment>
 			</properties>
 		</profile>
 		<profile>
 			<id>qa</id>
 			<properties>
-				<environment>QA</environment>
+				<environment>QAAAA</environment>
 			</properties>
 		</profile>
 	</profiles>
